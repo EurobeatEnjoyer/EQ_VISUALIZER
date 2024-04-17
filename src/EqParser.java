@@ -21,7 +21,6 @@ public class EqParser {
             pttrn = matchedEQ.group(2);
         }
     }
-
     public String parseEqString(){
         String parsedEqStringInsallah = "";
         List<Map.Entry<Integer, Double>> list =
