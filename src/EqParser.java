@@ -8,7 +8,6 @@ public class EqParser {
     //StringBuffer buffer = new StringBuffer();
     private String pttrn = "";
     private String parsedEqStringInsallah = "";
-
     EqParser(final String eqfile) throws IOException {
         List<String> lines;
         Pattern eqPattern = Pattern.compile("(GraphicEQ:) ((([0-9]*) (-[0-9]*.[0-9]);?\\u0020?)*)");
